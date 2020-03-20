@@ -1,0 +1,28 @@
+.priority-bar {
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+}
+
+.priority-2 {
+  background-color: #FF555588;
+}
+
+.priority-1 {
+  background-color: #ffd75588;
+}
+
+.priority-0 {
+  background-color: #a2ff5588;
+}
+
+.priority-undefined {
+  background-color: #bb00f888;
+}
+
+option:hover {
+  background-color: unset;
+}

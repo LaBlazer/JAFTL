@@ -1,0 +1,39 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+.priority-bar {
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+}
+
+.priority-2 {
+  background-color: #FF5555;
+}
+
+.priority-1 {
+  background-color: #ffd755;
+}
+
+.priority-0 {
+  background-color: #a2ff55;
+}
+
+.priority-undefined {
+  background-color: #bb00f8;
+}
+
